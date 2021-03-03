@@ -15,7 +15,7 @@ Android：第一运行最好通过airtest连接一遍
 如果报错：Nonetype error，那么就是adb赋权问题，sudo chmod 777 /你的python环境根目录/site-packages/airtest/core/android/static/adb/mac/adb
 
 ios： 需要xcode，WDA项目，同时开启iproxy
-工程招采app--需要提前登录账号，使用ios自动化运行前需要开启的权限：相机、相册、通讯录、定位
+使用ios自动化运行前需要开启的权限：相机、相册、通讯录、定位
 
 ### 依赖列表：
 
