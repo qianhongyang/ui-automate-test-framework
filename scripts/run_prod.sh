@@ -1,0 +1,1 @@
+pytest cases/web/oms/test_qutation_flow.py  -m prod --env prod -o "rp_launch_tags=UiAutoTest" --reportportal

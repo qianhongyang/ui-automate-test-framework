@@ -1,0 +1,31 @@
+android:
+  ADDRESS: android://127.0.0.1:5037/
+  CURRENTDEVICE: null
+  PACKAGENAME: null
+  PASSWORD: null
+  USERNAME: null
+ios:
+  ADDRESS: 127.0.0.1:8100
+  CURRENTDEVICE: null
+  PACKAGENAME: null
+  PASSWORD: null
+  USERNAME: null
+log:
+  LEVEL: DEBUG
+  ROTATION: 500 MB
+portal:
+  ENDPOINT: test
+  PROJECT: ui-test
+  STATE: false
+  TOKEN: test-abhjh
+version: 1.0
+web:
+  DEBUGGER: false
+  DEV:
+    BAIDU:
+      BAIDUURL: https://www.baidu.com
+  ENV: DEV
+  HEADLESS: false
+  PROD:
+    BAIDU:
+      BAIDUURL: https://www.baidu.com
