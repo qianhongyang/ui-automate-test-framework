@@ -1,7 +1,7 @@
 android:
   ADDRESS: android://127.0.0.1:5037/
   CURRENTDEVICE: null
-  PACKAGENAME: null
+  PACKAGENAME: com.netease.cloudmusic
   PASSWORD: null
   USERNAME: null
 ios:

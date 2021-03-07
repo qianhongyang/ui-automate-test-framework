@@ -7,7 +7,7 @@ from utils.operation_portal import portal_attachment
 from utils.operation_path import get_picture_path
 from utils.operation_log import Loggings
 from utils.android_connect_device import android_start, android_get_devices, android_connet
-from pages.app.basePage import basePage
+from pages.app.android.basePage import basePage
 
 AdroidPoco = None
 
