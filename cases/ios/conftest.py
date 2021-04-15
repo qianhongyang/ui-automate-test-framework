@@ -8,7 +8,7 @@ from utils.operation_log import Loggings
 from utils.operation_profile import get_ios_config
 from airtest.core.api import *
 from poco.drivers.ios import iosPoco
-from pages.app.basePage import basePage
+from pages.app.ios.basePage import basePage
 
 IosPoco = None
 ADDRESS = get_ios_config().get("ADDRESS")  # 开放的wda服务端口
@@ -28,9 +28,6 @@ def pytest_runtest_makereport():
             screen_img = _capture_screenshot()
             if screen_img:
                 portal_attachment(screen_img)
-            # 报错的地方截图之后返回到首页
-            page = basePage(IosPoco)
-            page.back_homepage("扫一扫")
 
 
 def _capture_screenshot():
